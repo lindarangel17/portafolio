@@ -224,7 +224,7 @@ header article nav a.activo{
 main{
     width: 100%;
     height: auto;
-    margin: 100px auto 0 auto;
+    margin: 80px auto 0 auto;
     float: none;
     position: relative;
 } 
@@ -293,12 +293,12 @@ main section#perfil article{
 }
 main section#perfil article figure{
     width: 500px;
-    height: 420px;
+    height: auto;
     display: block;
     margin: 0 auto;
     float: left;
     position: relative;
-    padding: 115px 0;
+    padding: 75px 0 0 0;
 }
 main section#perfil article figure#texto{
     width: 500px;
@@ -310,12 +310,13 @@ main section#perfil article figure#texto{
     padding: 115px 0;
 }
 main section#perfil article figure img{
-    width: 500px;
-    height: 420px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
     float: left;
     position: relative;
+    border-radius: 50%;
 }
 main section#perfil article figure h2{
     margin: 100px 0 0 0;
@@ -411,6 +412,232 @@ main section#servicios article figure h2{
     background: #fff;
     font-weight: 300;
 }
+
+main section#ilustracion1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #b7c6b7;
+}
+main section#ilustracion1 article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#ilustracion1 article figure{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+main section#ilustracion1 article figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+}
+main section#ilustracion1 article figure#texto1{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 166px 0;
+    
+}
+main section#ilustracion1 article figure#texto1 h2{
+    margin: 25px 0 0 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+    color:salmon;
+}
+main section#ilustracion1 article figure#texto1 p{
+    margin: 8px 30px ;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+}
+
+main section#ilustracion2{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #33697b;
+}
+main section#ilustracion2 article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#ilustracion2 article figure#img2{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+main section#ilustracion2 article figure#img2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+}
+main section#ilustracion2 article figure#texto2{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    padding: 180px 0 0 0;
+}
+main section#ilustracion2 article figure#texto2 h2{
+    margin: 25px 0 0 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+    color: #fff;
+}
+main section#ilustracion2 article figure#texto2 p{
+    margin: 8px 30px ;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+}
+
+main section#ilustracion3{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background:salmon;
+}
+main section#ilustracion3 article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#ilustracion3 article figure#img3{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+main section#ilustracion3 article figure#img3 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+}
+main section#ilustracion3 article figure#texto3{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 180px 0 0 0;
+}
+main section#ilustracion3 article figure#texto3 h2{
+    margin: 25px 0 0 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+    color: #33697b;
+}
+main section#ilustracion3 article figure#texto3 p{
+    margin: 8px 30px ;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+}
+main section#portafolio {
+    width: 100%;
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    background: #fc9885; }
+main section#portafolio article { 
+    width: 1100px; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0; 
+
+}
+main section#portafolio article nav { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; }
+main section#portafolio article nav a { 
+    width: 250px; 
+    height: auto; 
+    float: none; 
+    display: inline-block; 
+    margin: 11px; 
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 5px; 
+    transition: all 0.3s ease-in; }
+main section#portafolio article nav a img { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block;
+    margin: 0 auto; 
+    position: relative; 
+    transition: all 0.3s ease-in;
+    border-radius: 50%;
+ }
+main section#portafolio article nav a:hover { 
+    opacity: 0.8; 
+    transition: all 0.3s ease-in; }
+main section#portafolio article nav a:hover img { 
+    transform: scale(1.03); 
+    transition: all 0.3s ease-in; }
+
+.fancybox-container { z-index: 99999 !important; }
+
 main section#contactame { 
     width: 100%;
     height: auto;
@@ -534,190 +761,106 @@ footer article nav a {
     transition: all 0.3s ease-in;
 }
 
-
 @media only screen and (max-width: 1199px){
-    aside#menu-responsive { display: none; }
-    header article figure {
-        width: auto; 
-        margin: 0 0 0 20px;}
-        header article nav {width: 630px;}
-    main section#banner article h2 {
-        text-align: center;
-        font-size: 3.2em;
-        padding: 17% 14% 0;}
-    main section#banner article a {margin: 0 0 0 45%;}
+    header article {width: 90%;}
+    header article figure {width: 19%;}
+    header article nav {width: 54%;}
 }
-
 @media only screen and (max-width: 899px){
-    header article nav {width: 580px;}
-    header article nav a {margin: 0px 15PX;}
-    main section#banner article {
-        height: 400px;}
-    main section#banner article h2 {
-            padding: 20% 6% 0;}
-    main section#perfil article {width: 800px;
-        height: 600px;}
-    main section#banner article a {
-        margin: 0 0 0 42%;}
-    main section#perfil article figure {width: 350px;
-        height: auto;
-        padding: 125px 0;}
-    main section#perfil article figure img {
-        width: 350px;
-        height: auto;}
-    main section#perfil article figure#texto {
-        width: 350px;
-        height: auto;
-        padding: 139px 0;}
-        main section#perfil article figure h2 {
-            margin: 70px 0 0 0;}
-    main section#perfil article figure a {
-        margin: 0px 0 0 28%;}
-    main section#servicios article {
-        width: 800px;
-        height: 490px;}
-    main section#servicios article figure {
-        width: 250px;
-        height: 250px;}
-    main section#servicios article figure img {
-        width: 250px;
-        height: auto;}
-        main section#servicios article figure h2 {
-        font-size: 1.3em;}
-    main section#servicios article figure#segunda-img {
-        width: 250px;
-        height: 250px;}
-    main section#servicios article figure {
-        width: 250px;
-        height: 250px;}
-
-}
-
-@media only screen and (max-width: 799px){
-    header article {width: 80%;}
-    header article figure {
-        width: 144px;margin: 0;}
-    header article figure a {
-        margin: 15px 0;}
-    header article nav {width: 452px;}
-    header article nav a {
-        margin: 0px 5PX; background-size:}
-    main section#banner article h2 {
-        padding: 20% 0 0;}
-    main section#banner article a {
-        margin: 0 0 0 42%;}
-    main section#perfil article {
-        width: 700px;}
-    main section#perfil article figure {
-         width: 340px;}
-    main section#perfil article figure img {
-        width: 340px;}
-    main section#perfil article figure#texto {
-        width: 340px;
-        padding: 157px 0;}
-    main section#perfil article figure h2 {
-        margin: 56px 0 0 0;}
-    main section#perfil article figure p {
-        margin: 8px 0 25px 0;
-        font-size: 1em;}
-    main section#perfil article figure a {
-        margin: 0px 0 0 27%;}
-    main section#servicios article {
-        width: 700px;
-        height: 480px;}
-    main section#servicios article figure {
-        width: 233px;
-        height: 233px;
-        margin: 0;}
-    main section#servicios article figure img {
-        width: 100%;
-        height: auto;}
-    main section#servicios article figure#segunda-img {
-        width: 233px;
-        height: 233px;}
-    main section#servicios article figure {
-        width: 233px;
-        height: 233px;}
-}
-
-@media only screen and (max-width: 599px){
-    aside#menu-responsive {
-        display: block;
-        background: #33697b;}
-    aside#menu-responsive a#abrir {
-        color: #fff;
-        background: #fc9885;}
-    aside#menu-responsive a#cerrar {
-        color: #fff;
-        background: #fc9885;}
-    header article {
-        width: 20%;}
-    header article figure {
-        width: 120px;
-        margin: 0;}
-    header article nav {
-        display: none;}
-    main section#banner article {
-        height: 300px;}
-    main section#banner article h2 {
-        font-size: 2.2em;}
-    main section#banner article a {
-        margin: 0 0 0 39%;}
-    main section#perfil article {
-        width: 500px;
-        height: 600px;}
-    main section#perfil article figure {
-        width: 300px;
-        height: 300px;
-        padding: 20px 0;
-        float:none;}
-    main section#perfil article figure img {
-        width: 300px;}
-    main section#perfil article figure#texto {
-        width: 300px;
-        float:none;
-        padding: 0;}
-    main section#perfil article figure h2 {
-        margin: 0;}
-    main section#perfil article figure a {
-        margin: 0px 0 0 22%;}
-    main section#servicios article {
-        width: 300px;
-        height: 1080px;}
-    main section#servicios article figure {
-        width: 300px;
-        height: 300px;
-        padding: 25px 0;}
-    main section#servicios article figure#segunda-img {
-        width: 300px;
-        height: 300px;
-        padding: 25px 0;}
-    main section#servicios article figure {
-        width: 300px;
-        height: 300px;
-        padding: 25px 0;}
-    main section#contactame article p {
-        line-height: 1em;}
-}
-
-@media only screen and (max-width: 499px){
-    main section#banner article {
-        height: 260px;}
-    main section#perfil article {
-        width: 400px;}
-    main section#banner article h2 {
-        font-size: 1.8em;}
-
-}
-@media only screen and (max-width: 399px){
-    header {height: 80px;}
-    header article {width: 27%;}
-    header article figure {height: 80px; }
-    header article figure a {margin: 12px 0;}
+    aside#menu-responsive{display: none;}
+    header article nav {width: 60%;}
+    header article nav a {margin: 0 9PX;}
+    main section#banner article h2 {padding: 28% 8% 0;font-size: 3em;}
+    main section#banner article a {margin: 0px 0 0 43%;}
+    main section#perfil article {width: 90%;height: 500px;}
+    main section#perfil article figure {width: 45%;}
+    main section#perfil article figure#texto {width: 45%;padding: 82px 0 0 0;}
+    main section#perfil article figure h2 {margin: 55px 0 0 0;}
+    main section#perfil article figure a {margin: 0 0 0 28%;}
+    main section#servicios article {width: 90%;height: 545px;}
+    main section#servicios article figure {width: 30%;height: auto;padding: 96px 0 0 0}
+    main section#servicios article figure#segunda-img {width: 30%;height: auto;padding: 96px 0 0 0}
+    main section#servicios article figure { width: 30%;height: auto;padding: 96px 0 0 0;margin: 0 20px;}
+    main section#servicios article figure img {width: 100%;height: 275px;}
+    main section#ilustracion1 article {width: 90%;height: 500px;}
+    main section#ilustracion1 article figure {width: 45%;padding: 70px 0 0 0;}
+    main section#ilustracion1 article figure#texto1 {width: 45%;padding: 80px 0 0 0;}
+    main section#ilustracion1 article figure#texto1 p {margin: 8px 0;}
+    main section#ilustracion2 article {width: 90%;height: 500px;}
+    main section#ilustracion2 article figure#img2 {width: 45%;padding: 70px 0 0 0;}
+    main section#ilustracion2 article figure#texto2 {width: 45%;padding: 80px 0 0 0;}
+    main section#ilustracion2 article figure#texto2 p {margin: 8px 0;}
+    main section#ilustracion3 article {width: 90%;height: 500px;}
+    main section#ilustracion3 article figure#img3 {width: 45%;padding: 70px 0 0 0;}
+    main section#ilustracion3 article figure#texto3 {width: 45%;padding: 80px 0 0 0;}
+    main section#ilustracion3 article figure#texto3 p {margin: 8px 0;}
+    main section#portafolio article {width: 90%;}
+    main section#portafolio article nav {text-align: center;}
+    main section#portafolio article nav a {width: 20%;}
+    header {width: 100%;height: 80px;}
+    header article {height: 80px;}
+    header article figure {height: 80px;}
+    header article nav {width: 70%;margin: 25px 0;}
     main {margin: 80px auto 0 auto;}
-    main section#banner article {height: 260px;}
-    main section#banner article h2 {font-size: 1.2em; padding: 34% 0 0;}
-    main section#banner article a {margin: 0 0 0 31%;}
+    main section#banner article {height: 400px;}
+    main section#banner article h2 {padding: 25% 6% 0;font-size: 2.8em;}
+    main section#banner article a {margin: 0px 0 0 42%;}
+    main section#servicios article {height: 530px;}
+    main section#servicios article figure {margin: 0 17px;}
+    main section#servicios article figure h2 {font-size: 1.5em;}
+}
+@media only screen and (max-width: 799px){   
+    aside#menu-responsive {display: block;}
+    aside#menu-responsive nav a {font-size: 1.3em;}
+    aside#menu-responsive nav {width: 85%;margin: 24px 0 0 0;}
+    header article { width: 100%; }
+    header article nav {display: none;}
+    header article figure {float: none;}
+    header article figure a {margin: 12px 0;}
+    main section#banner article {height: 350px;}
+    main section#banner article h2 { padding: 30% 6% 0;font-size: 2em;}
+    main section#banner article a {margin: 0px 0 0 40%;}
+    main section#perfil article {width: 90%;height: 680px;}
+    main section#perfil article figure {width: 50%;float: none;}
+    main section#perfil article figure#texto {width: 80%;float: none;padding: 45% 0 0 0;}
+    main section#perfil article figure a {margin: 0 0 0 31%;}
+    main section#servicios article {height: 1045px;}
+    main section#servicios article figure {margin: 0 auto;float: none;}
+    main section#servicios article figure img {height: 240px;}
+    main section#servicios article figure {width: 40%;    float: none;padding: 40px 0 0 0;}
+    main section#servicios article figure#segunda-img {width: 40%;    float: none;height: auto;padding: 40px 0 0 0;}
+}
+@media only screen and (max-width: 599px){ 
+    aside#menu-responsive {display: block;}   
+}
+@media only screen and (max-width: 499px){ 
+    header article figure {width: 28%;}
+    main section#banner article {height: 300px;}
+    main section#banner article h2 {padding: 30% 6% 0;font-size: 1.8em;}
+    main section#banner article a { margin: 0px 0 0 36%;}
+    main section#servicios article {height: 920px;}
+    main section#servicios article figure img {height: 194px;}
+    main section#ilustracion1 article {height: 643px;}
+    main section#ilustracion1 article figure {width: 60%;float: none;margin: 0 auto;}
+    main section#ilustracion1 article figure#texto1 {width: 80%;padding: 61% 0 0 0;float: none;margin: 0 auto;}
+    main section#ilustracion2 article {height: 643px;}
+    main section#ilustracion2 article figure#img2 {width: 60%;float: none;margin: 0 auto;padding: 50px 0 0 0;
+    }
+    main section#ilustracion2 article figure#texto2 {width: 80%;padding: 10% 0 0 0;float: none;margin: 0 auto;}
+    main section#ilustracion3 article {height: 643px;}
+    main section#ilustracion3 article figure#img3 {width: 60%;float: none;margin: 0 auto;}
+    main section#ilustracion3 article figure#texto3 {width: 80%;padding: 61% 0 0 0;float: none;margin: 0 auto;}
+    main section#portafolio article nav a {width: 40%;}
 
-
+}
+@media only screen and (max-width: 399px){ 
+    header article figure {width: 33%;}
+    main section#banner article {height: 280px;}
+    main section#banner article h2 {padding: 39% 4% 0;font-size: 1.5em;}
+    main section#banner article a {margin: 0px 0 0 32%;}
+    main section#perfil article figure a {margin: 0 0 0 23%;}
+    main section#servicios article {height: 1060px;}
+    main section#servicios article figure {width: 60%;}
+    main section#servicios article figure#segunda-img {width: 60%;}
+    main section#servicios article figure img {height: 241px;}
 }
